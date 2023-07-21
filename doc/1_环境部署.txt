@@ -1,0 +1,27 @@
+要在Ubuntu 18.04上安装OpenGL，可以按照以下步骤进行操作：
+
+打开终端并更新软件包列表：
+sudo apt-get update
+
+
+安装OpenGL工具包：
+sudo apt-get install mesa-utils
+
+
+确认OpenGL是否已成功安装：
+glxinfo | grep "OpenGL version"
+
+如果OpenGL已成功安装，则会显示OpenGL版本信息。
+
+安装OpenGL开发库：
+sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
+
+这将安装OpenGL开发所需的库和工具。
+
+确认OpenGL开发库是否已成功安装：
+glxgears
+
+如果OpenGL开发库已成功安装，则会显示一个旋转的齿轮。
+
+
+
