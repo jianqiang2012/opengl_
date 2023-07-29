@@ -1,0 +1,12 @@
+
+使用编译命令：
+
+g++ w.cpp  -o w  -lglfw
+
+运行：
+
+./w   会出现一个窗口
+
+
+或者： g++ w-4.cpp   -o w-4  -lglfw -lGL
+
