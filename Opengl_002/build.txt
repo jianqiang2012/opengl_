@@ -1,0 +1,2 @@
+编译： g++ drwaline.cpp -o drwaline -lglfw -lGL
+运行： ./drwaline  
